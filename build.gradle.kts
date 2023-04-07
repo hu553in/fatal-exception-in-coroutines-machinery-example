@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	kotlin("jvm") version "1.7.20"
+	kotlin("jvm") version "1.8.20"
 }
 
 group = "com.example"
@@ -13,8 +13,6 @@ repositories {
 }
 
 dependencies {
-	implementation(kotlin("reflect", "1.7.20"))
-	implementation(kotlin("stdlib", "1.7.20"))
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")
 	implementation("io.mockk:mockk:1.13.4")
